@@ -23,6 +23,7 @@ public class ApachePOIExcelRead {
 		int rowCount =0; 
 		String [][] list1 = null; 
 		
+		
 		try {
 			System.out.println("File Name Got " + fileName);
 			FileInputStream file = new FileInputStream(new File(fileName));
@@ -89,12 +90,13 @@ public class ApachePOIExcelRead {
 	}
 
 	public static void main(String[] args) {
-		String fileName = "C:/Users/Naveen/Desktop/Testing.xlsx";
+		String fileName = "C:\\Users\\UDDIPTAGUPTA\\Desktop\\Selenium_Training_Doc\\Sample_test.xlsx";
 		
 		for(String [] temp : new ApachePOIExcelRead().getExcelContent(fileName)){
 			for(String  tt : temp){
-				System.out.println(tt);
-			}
+				System.out.print(tt+" ");
+				}
+			System.out.println();
 		}
 
 	}

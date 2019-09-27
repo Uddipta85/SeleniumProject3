@@ -8,7 +8,7 @@ public interface Driver {
 	String PHANTOM="phantomjs.binary.path";
 	
 	// PATH 
-	String CHROME_PATH="C:\\OnlineTraining\\SDET Oct 2018\\dependencies\\chromedriver.exe";
+	String CHROME_PATH="C:\\Users\\UDDIPTAGUPTA\\Desktop\\SeleniumSessionArtifacts\\geckodriver-v0.24.0-win64\\chromedriver.exe";
 	String FIREFOX_PATH ="C:\\Users\\UDDIPTAGUPTA\\Desktop\\SeleniumSessionArtifacts\\geckodriver-v0.24.0-win64\\geckodriver.exe";
 	String IE_PATH ="";
 	String PHANTOM_PATH="";
